@@ -35,10 +35,10 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>ViDi-DC</title>
-    <authors>Dmitry Dvorkin, Alfy Centauri</authors>
+    <authors>Dmitry Dvorkin starring Alfy Centauri</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://dvorkin.by/vidi-dc/</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/vidi-dc.png</iconUrl>-->
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/ViDi-DC.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
