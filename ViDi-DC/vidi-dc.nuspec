@@ -5,7 +5,7 @@
     <owners>Sasha Chernykh</owners>
     <title>ViDi-DC</title>
     <authors>Dmitry Dvorkin starring Alfy Centauri</authors>
-    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/ViDi-DC</packageSourceUrl>
     <projectUrl>http://dvorkin.by/vidi-dc/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/ViDi-DC.png</iconUrl>
     <tags>vidi-dc irc games gingerinas vs_pollards</tags>
