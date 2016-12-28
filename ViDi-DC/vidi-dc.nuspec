@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>vidi-dc</id>
-    <version>1.0.0</version>
     <owners>Sasha Chernykh</owners>
     <title>ViDi-DC</title>
     <authors>Dmitry Dvorkin starring Alfy Centauri</authors>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/</packageSourceUrl>
     <projectUrl>http://dvorkin.by/vidi-dc/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/ViDi-DC.png</iconUrl>
     <tags>vidi-dc irc games gingerinas vs_pollards</tags>
