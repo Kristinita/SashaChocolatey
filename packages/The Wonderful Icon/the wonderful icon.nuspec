@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>the-wonderful-icon</id>
+    <version>2.2</version>
+    <owners>Sasha Chernykh</owners>
+    <title>The Wonderful Icon</title>
+    <authors>Eric Heimburg</authors>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/ViDi-DC</packageSourceUrl>
+    <projectUrl>http://www.thewonderfulicon.com/index.html</projectUrl>
+    <copyright>2006</copyright>
+    <licenseUrl>http://www.thewonderfulicon.com/faqs.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/The-Wonderful-Icon.png</iconUrl>
+    <docsUrl>http://www.thewonderfulicon.com/faqs.html</docsUrl>
+    <mailingListUrl>http://www.thewonderfulicon.com/contact.html</mailingListUrl>
+    <bugTrackerUrl>http://www.thewonderfulicon.com/contact.html</bugTrackerUrl>
+    <tags>the-wonderful-icon tray taskbar</tags>
+    <summary>The Wonderful Icon is a small Windows utility that resides PC's taskbar tray.</summary>
+    <description>
+    	TWI has lots of features. With it, you can:
+
+    	    + Assign hotkeys for common tasks such as minimize windows, restart Windows, etc.;
+    	    + Minimize programs onto the taskbar tray instead of just onto the taskbar, either by a keystroke or by right-clicking a window's Minimize button with your mouse;
+    	    + Configure a menu of easily-accessible commands;
+    	    + Increase or decrease speaker volume with the press of a button;
+    	    + Automatically run programs at start-up, and hide them, minimize them to the taskbar tray, etc.
+    </description>
+    <releaseNotes>
+    	+ Easily type characters that aren't on keyboard,
+    	+ Keep an extra clipboard handy,
+    	+ Give desktop a makeover.
+
+    	For details see [Tips and Tricks](http://www.thewonderfulicon.com/tips_and_tricks.html) page.
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
