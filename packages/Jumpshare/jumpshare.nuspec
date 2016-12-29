@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>jumpshare</id>
+    <version>2.0.9</version>
+    <owners>Sasha Chernykh</owners>
+    <title>Jumpshare</title>
+    <authors>Ghaus Iftikhar</authors>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Jumpshare</packageSourceUrl>
+    <projectUrl>https://jumpshare.com/</projectUrl>
+    <licenseUrl>https://jumpshare.com/terms</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Jumpshare.png</iconUrl>
+    <docsUrl>https://jumpshare.com/file-sharing</docsUrl>
+    <mailingListUrl>https://jumpshare.com/contact</mailingListUrl>
+    <bugTrackerUrl>https://jumpshare.com/contact</bugTrackerUrl>
+    <tags>jumpshare file-sharing online-storage storage cloud-storage</tags>
+    <summary>Jumpshare is program for incredibly fast, real-time file sharing</summary>
+    <description>
+    	    + Quickly capture and share anything;
+    	    + Collaborate at the speed of thought;
+    	    + Organize everything in one place;
+    	    + Work with your files on the go;
+    	    + A delightful viewing experience;
+    	    + Automatically integrates with hundreds of apps.
+    </description>
+    <releaseNotes>
+    	+ Introducing comments: get feedback and collaborate faster with everyone.
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

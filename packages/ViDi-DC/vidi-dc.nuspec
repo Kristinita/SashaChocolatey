@@ -9,7 +9,7 @@
     <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/ViDi-DC</packageSourceUrl>
     <projectUrl>http://dvorkin.by/vidi-dc/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/ViDi-DC.png</iconUrl>
-    <tags>vidi-dc admin irc games gingerinas vs_pollards</tags>
+    <tags>vidi-dc admin dc games gingerinas vs_pollards</tags>
     <summary>ViDi-DC — client for Vs_Pollards.</summary>
     <description>ViDi-DC — program for game in different Vs_Pollards — Filimania, Alpha-hub and Khimki Quiz.</description>
   </metadata>
