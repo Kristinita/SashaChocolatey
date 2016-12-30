@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>smillaenlarger</id>
+    <version>0.9.0</version>
+    <title>Smilla Enlarger</title>
+    <authors>Mischa Lusteck</authors>
+    <owners>Sasha Chernykh</owners>
+    <licenseUrl>https://sourceforge.net/directory/os:windows/license:gplv3/</licenseUrl>
+    <projectUrl>https://sourceforge.net/projects/imageenlarger/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/SmillaEnlarger.png</iconUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/SmillaEnlarger</packageSourceUrl>
+    <docsUrl>http://www.freewaregenius.com/smillaenlarger-free-tool-produces-high-quality-image-enlargements/</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/imageenlarger/discussion/?source=navbar</mailingListUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/imageenlarger/bugs/</bugTrackerUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>SmillaEnlarger is a small graphical tool ( based on Qt ) to resize, especially magnify bitmaps in high quality.</summary>
+    <description>SmillaEnlarger is a small graphical tool ( based on Qt ) to resize, especially magnify bitmaps in high quality.</description>
+    <releaseNotes>Version 0.9.0</releaseNotes>
+    <copyright>Copyright © 2009 year Mischa Lusteck</copyright>
+    <tags>smillaenlarger image-quality image graphics photo admin</tags>
+  </metadata>
+    <files>
+          <file src="tools\**" target="tools" />
+    </files>
+</package>
