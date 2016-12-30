@@ -3,7 +3,7 @@
   <metadata>
     <id>smillaenlarger</id>
     <version>0.9.0</version>
-    <title>Smilla Enlarger</title>
+    <title>SmillaEnlarger</title>
     <authors>Mischa Lusteck</authors>
     <owners>Sasha Chernykh</owners>
     <licenseUrl>https://sourceforge.net/directory/os:windows/license:gplv3/</licenseUrl>
@@ -18,7 +18,7 @@
     <description>SmillaEnlarger is a small graphical tool ( based on Qt ) to resize, especially magnify bitmaps in high quality.</description>
     <releaseNotes>Version 0.9.0</releaseNotes>
     <copyright>Copyright © 2009 year Mischa Lusteck</copyright>
-    <tags>smillaenlarger image-quality image graphics photo admin</tags>
+    <tags>smillaenlarger image-quality image graphics photo</tags>
   </metadata>
     <files>
           <file src="tools\**" target="tools" />
