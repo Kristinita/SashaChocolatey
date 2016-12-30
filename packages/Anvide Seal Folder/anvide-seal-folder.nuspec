@@ -10,6 +10,7 @@
     <projectUrl>http://anvidelabs.org/programms/asf/</projectUrl>
     <licenseUrl>http://anvidelabs.org/asfhelp/lic.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright © 2016 Anvide Labs</copyright>
     <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Anvide-Seal-Folder.png</iconUrl>
     <docsUrl>http://anvidelabs.org/asfhelp/index.html</docsUrl>
     <mailingListUrl>http://anvidelabs.org/feedback/</mailingListUrl>
