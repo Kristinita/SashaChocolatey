@@ -1,25 +1,30 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName= 'The Wonderful Icon'
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$packageName= 'the-wonderful-icon'
+$toolsDir   = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $url        = 'http://www.thewonderfulicon.com/wondicon.exe'
-$url64      = ''
 
 $packageArgs = @{
   packageName   = $packageName
-  unzipLocation = $toolsDir
-  fileType      = 'exe'
+  fileType      = 'EXE'
   url           = $url
-  url64bit      = $url64
+
+  silentArgs = "" # Silent installation discussion: https://veracrypt.codeplex.com/discussions/579539
 
   softwareName  = 'The Wonderful Icon*'
-
-  checksum      = ''
+  checksum      = 'F0FA07670E28C97E68D8397ABB9ABA05DDB92A6B060705EBF57C20F822E86E16'
   checksumType  = 'sha256'
-  checksum64    = ''
-  checksumType64= 'sha256'
-
-  silentArgs   = '/auto'
 }
+
+#Thanks to dtgm and the GitHub package for ideas.
+$ahkExe = 'AutoHotKey'
+$ahkFile = Join-Path $toolsDir "the-wonderful-iconInstall.ahk"
+$ahkProc = Start-Process -FilePath $ahkExe `
+                         -ArgumentList $ahkFile `
+                         -PassThru
+
+$ahkId = $ahkProc.Id
+Write-Debug "$ahkExe start time:`t$($ahkProc.StartTime.ToShortTimeString())"
+Write-Debug "Process ID:`t$ahkId"
 
 Install-ChocolateyPackage @packageArgs

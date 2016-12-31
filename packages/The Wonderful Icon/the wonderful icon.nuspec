@@ -33,6 +33,9 @@
 
     	For details see [Tips and Tricks](http://www.thewonderfulicon.com/tips_and_tricks.html) page.
     </releaseNotes>
+	<dependencies>
+            <dependency id="autohotkey.portable" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

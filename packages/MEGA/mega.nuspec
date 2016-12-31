@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mega</id>
+    <version>2.9.10</version>
+    <title>MEGAsync</title>
+    <authors>MEGA Limited</authors>
+    <owners>Sasha_Chernykh</owners>
+    <licenseUrl>https://mega.nz/#terms</licenseUrl>
+    <projectUrl>https://mega.nz/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/MEGA.png</iconUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/MEGA</packageSourceUrl>
+    <docsUrl>https://mega.nz/#doc</docsUrl>
+    <mailingListUrl>https://mega.nz/#contact</mailingListUrl>
+    <bugTrackerUrl>https://github.com/meganz/MEGAsync/issues</bugTrackerUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>MEGA is a cloud storage and file hosting service. 50 GB free.</summary>
+    <description>When MEGA launched early 2013, global mass surveillance by rogue governments under the pretext of fighting terrorism was still a wild conjecture and its proponents were often touted as conspiracy theorists. Edward Snowden's revelations 137 days later fundamentally changed public attitudes and it became excruciatingly clear that security by policy ("we have access to your data, but we promise to keep it confidential and not misuse it") had not been good enough. Anything short of security by design ("we cannot gain access to your data without you being able to find out"), for which strong end-to-end encryption is an essential prerequisite, now seems grossly insufficient.</description>
+    <releaseNotes>
+    + Support to download/import folder links  
+    + Automatic HTTP/HTTPS proxy detection on OS X  
+    + Better compatibility with antivirus software  
+    + HDPI support for Linux distros having QT >= 5.6  
+    + Other bug fixes and minor improvements  </releaseNotes>
+    <copyright>Copyright © 2016 year Mega Limited</copyright>
+    <tags>mega file-hosting cloud-storage admin</tags>
+  </metadata>
+    <files>
+          <file src="tools\**" target="tools" />
+    </files>
+</package>
