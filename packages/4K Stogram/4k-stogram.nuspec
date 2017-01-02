@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>4k-stogram</id>
+    <version>2.2</version>
+    <title>4K Stogram</title>
+    <authors>4K Download project</authors>
+    <owners>Sasha_Chernyk</owners>
+    <licenseUrl>https://www.4kdownload.com/ru/agreement/freeware</licenseUrl>
+    <projectUrl>https://www.4kdownload.com/ru/products/product-stogram</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/4K-.png</iconUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/4K Stogram</packageSourceUrl>
+    <docsUrl>https://www.4kdownload.com/ru/howto/howto-download-instagram-photos</docsUrl>
+    <mailingListUrl>https://www.4kdownload.com/ru/contacts</mailingListUrl>
+    <bugTrackerUrl>https://www.4kdownload.com/ru/contacts</bugTrackerUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>4K Stogram — program for quick download Instagram photos and videos.</summary>
+    <description>Capabilities:  
+    	+ Download photos and videos from closed profiles of friends,  
+    	+ Automatic download last photos favorite photographers.</description>
+    <releaseNotes>Bugs fixed</releaseNotes>
+    <copyright>Copyright © 2016 OpenMedia LLC</copyright>
+    <tags>4k-stogram instagram downloader admin</tags>
+  </metadata>
+    <files>
+          <file src="tools\**" target="tools" />
+    </files>
+</package>
