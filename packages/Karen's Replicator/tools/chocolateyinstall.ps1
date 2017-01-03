@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop';
 
 $packageName= 'Karens Replicator'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"

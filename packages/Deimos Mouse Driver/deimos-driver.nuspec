@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>deimos-driver</id>
+    <version>1.0.0</version>
+    <title>Deimos Mouse Driver</title>
+    <authors>Canyon</authors>
+    <owners>Sasha_Chernykh</owners>
+    <licenseUrl>http://canyon.ru/usloviya-garantii/</licenseUrl>
+    <projectUrl>http://canyon.ru/product/deimos-cnd-sgm4n-2/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Canyon-Deimos-Mouse-Driver.png</iconUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Deimos Mouse Driver</packageSourceUrl>
+    <docsUrl>http://canyon.eu/wp-content/uploads/2016/08/RS9471_SGM4_ru.pdf</docsUrl>
+    <mailingListUrl>http://canyon.ru/svyazatsya-s-nami/</mailingListUrl>
+    <bugTrackerUrl>http://canyon.ru/zadajte-svoj-vopros/</bugTrackerUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Driver for Canyon CND-SGM4N «Deimos» mouse</summary>
+    <description>
+    	+ Customisable all 7 mouse buttons,  
+    	+ Russian-language interface.</description>
+    <releaseNotes>Fixed some bugs</releaseNotes>
+    <copyright>Все права защищены (c) 2014 Canyon</copyright>
+    <tags>driver mouse mouse-driver</tags>
+  </metadata>
+    <files>
+          <file src="tools\**" target="tools" />
+    </files>
+</package>
