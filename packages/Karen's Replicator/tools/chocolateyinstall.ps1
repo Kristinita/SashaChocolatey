@@ -2,11 +2,11 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'Karens Replicator'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$tempurl = 'https://karens-replicator.en.uptodown.com/windows'
+$tempUrl = 'https://karens-replicator.en.uptodown.com/windows'
 $WebClient = New-Object System.Net.WebClient
-$test=$WebClient.DownloadString($tempurl)
-$test -match "<a target=`"_blank`" href=`"(.*)`" rel=`"nofollow`""
-$url=$matches[1]
+$pageSource = $WebClient.DownloadString($tempurl)
+$pageSource -match "<a target=`"_blank`" href=`"(.*)`" rel=`"nofollow`""
+$url = $matches[1]
 
 $packageArgs = @{
   packageName   = $packageName
