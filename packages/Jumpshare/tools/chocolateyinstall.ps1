@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop';
 
 $packageName= 'Jumpshare'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -14,9 +14,9 @@ $packageArgs = @{
 
   softwareName  = 'Jumpshare*'
 
-  checksum      = ''
+  checksum      = 'DBE17A25C6FE8E60662FF18502752CB7F2D780E1AE91928F4C4D41CE627FDEFE'
   checksumType  = 'sha256'
-  checksum64    = ''
+  checksum64    = 'DBE17A25C6FE8E60662FF18502752CB7F2D780E1AE91928F4C4D41CE627FDEFE'
   checksumType64= 'sha256'
 
   silentArgs   = '/S'
