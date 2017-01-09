@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>powerresizer</id>
+    <version>0.0.1</version>
+    <title>PowerResizer</title>
+    <authors>Federico Bastianello</authors>
+    <owners>Sasha Chernykh</owners>
+    <licenseUrl>https://sourceforge.net/projects/powerresizer/</licenseUrl>
+    <projectUrl>https://sourceforge.net/projects/powerresizer/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/PowerResizer.png</iconUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/PowerResizer</packageSourceUrl>
+    <docsUrl>https://sourceforge.net/p/powerresizer/wiki/Home/</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/powerresizer/discussion/</mailingListUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/powerresizer/discussion/</bugTrackerUrl>
+    <!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will be run frameworkAssemblies snippet. -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>PowerResizer is a utility that provides many facilities in moving or resizing windows</summary>
+    <description>PowerResizer is a utility that provides many facilities in moving or resizing windows in a Microsoft(R) Windows(R) desktop environment: one of the key-features of PowerResizer is windows-docking.  
+   	Application not worked correctly in Windows 10.</description>
+    <releaseNotes>Bugs fixed</releaseNotes>
+    <copyright>Copyright © 2015</copyright>
+    <!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+    <tags>powerresizer window-manager windows-resize admin</tags>
+  </metadata>
+    <files>
+          <file src="tools\**" target="tools" />
+    </files>
+</package>
