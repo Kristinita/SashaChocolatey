@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<id>wassapp</id>
+		<version>1.1.1.1</version>
+		<title>Wassapp</title>
+		<authors>Lowlevel Studios</authors>
+		<owners>Sasha Chernykh</owners>
+		<licenseUrl>http://wassapp.en.malavida.com/</licenseUrl>
+		<projectUrl>http://wassapp.en.malavida.com/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Wassapp.png</iconUrl>
+		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Wassapp</packageSourceUrl>
+		<docsUrl>http://wassapp.en.malavida.com/</docsUrl>
+		<mailingListUrl>http://en.malavida.com/malavida/co/contact</mailingListUrl>
+		<bugTrackerUrl>http://en.malavida.com/malavida/co/contact</bugTrackerUrl>
+		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will be run frameworkAssemblies snippet. -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>Wassapp is an unofficial desktop client for WhatsApp, the popular mobile application to send and receive free instant messages.</summary>
+		<description>Features:
+    	+ Send and receive WhatsApp messages straight from your Windows desktop.
++ Import contacts from a Google account or add them manually.
++ Receive attached images and view them on your web browser.</description>
+		<releaseNotes>Bugs fixed</releaseNotes>
+		<copyright>© Copyright 2017 Malavida. All rights reserved</copyright>
+		<tags>wassapp whatsapp messenger admin</tags>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools"/>
+	</files>
+</package>
