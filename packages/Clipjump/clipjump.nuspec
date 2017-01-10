@@ -25,7 +25,6 @@
     + [New] Option to use Win-C and Win-X for copying to Clipjump  
     + [New] Option to disable automatic clipboard monitoring  
 </releaseNotes>
-    <copyright>Copyright © year</copyright>
     <!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
     <tags>clipjump clipboard-manager clipboard autohotkey</tags>
   </metadata>

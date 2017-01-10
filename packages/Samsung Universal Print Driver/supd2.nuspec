@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<!-- Press, press Esc key before Tab key pressing, if you see autocomplete variants. -->
+  <metadata>
+    <id>supd2</id>
+    <version>2.0.0</version>
+    <title>Samsung Universal Print Driver</title>
+    <authors>Samsung</authors>
+    <owners>Sasha Chernykh</owners>
+    <licenseUrl>http://www.samsung.com/sec/consumer/learningresources/printer/printer_090622_download/univ_driver_german.pdf</licenseUrl>
+    <projectUrl>http://www.samsung.com/us/upd/popup.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/SUPD2.png</iconUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Samsung Universal Print Driver</packageSourceUrl>
+    <docsUrl>http://www.samsung.com/ru/business-images/resource/white-paper/2013/05/PP59_ITS_1111_Printer_Universal_Print_Driver_WP_RU-1.pdf</docsUrl>
+    <mailingListUrl>http://www.samsung.com/us/support/computing/printers</mailingListUrl>
+    <bugTrackerUrl>http://developer.samsung.com/forum/en</bugTrackerUrl>
+    <!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will be run frameworkAssemblies snippet. -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Universal driver for many Samsung printers models.</summary>
+    <description>List supported devices see [here](http://www.samsung.com/ru/business-images/resource/white-paper/2013/05/PP59_ITS_1111_Printer_Universal_Print_Driver_WP_RU-1.pdf#page=6).</description>
+    <releaseNotes>Bugs fixed</releaseNotes>
+    <copyright>© Samsung Electronics Co. Ltd, 2012 г</copyright>
+    <!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+    <tags>supd2 supd samsung-universal-print-driver samsung driver printer admin</tags>
+  </metadata>
+    <files>
+          <file src="tools\**" target="tools" />
+    </files>
+</package>
