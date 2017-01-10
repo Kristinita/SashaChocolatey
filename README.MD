@@ -2,11 +2,29 @@ Packages of [oderzhimyi_Sashei](https://chocolatey.org/profiles/oderzhimyi_Sashe
 
 ![Sasha Icon](icons/SashaChocolatey.jpg)
 
+## I can not create packages
+
+If you may tell me in detail, how I can to create packages for these applications or you can to be a maintainer of these packages yourself, I will be glad :smiley_cat:.
+
+### Not silent installation
+
++ [MEGA](https://mega.nz/#sync),
++ [Yandex.Disk](https://disk.yandex.ru/download/#pc),
++ [Preme for Windows](http://www.premeforwindows.com/),
++ [Olympus 2100PC driver](http://download.driverguide.com/driver/VN-2100PC/Olympus/d958734.html),
++ [The Wonderful Icon](http://www.thewonderfulicon.com/),
++ [SopCast](http://www.sopcast.com/).
+
+### Other problems
+
++ [Winstep Nexus](http://www.winstep.net/nexus.asp) — I can not uninstall package silently;
++ [Winaero Tweaker](http://winaero.com/comment.php?comment.news.1836) — for downloading file constantly changing hashes.
++ [AceStream](http://acestream.org/) — incorrect installation use right silent key `/S`.
+
 ## TODO
 
-If you can to be a maintainer any of these programs, it would be nice.
+If you can to be a maintainer any of these programs, it would be nice too.
 
-+ :zap: Clipjump,
 + DroidExplorer,
 + Gramblr,
 + gtypist,
@@ -15,19 +33,14 @@ If you can to be a maintainer any of these programs, it would be nice.
 + Key Catcher,
 + Kies,
 + Meazure,
-+ :zap: MEGA,
 + Offline Explorer,
 + Performance Maintainer,
 + Registry backup,
 + SIQuester,
 + Types,
 + US Downloader,
-+ :zap: Winaero tweaker,
-+ :zap: Winstep Nexus,
 + Zoiper,
-+ :zap: Samsung printer driver ML1865W-series,
 + Snappy driver installer,
-+ :zap: Яндекс.Диск,
 + h2testw,
 + SIGame,
 + Circeya,
@@ -39,4 +52,3 @@ If you can to be a maintainer any of these programs, it would be nice.
 + Sothink SWF EASY,
 + FileASSASSIN,
 + Audio Converter Extractor Max,
-+ Digital Wave Player driver.
