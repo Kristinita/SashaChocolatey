@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<!-- Press, press Esc key before Tab key pressing, if you see autocomplete variants. -->
+  <metadata>
+    <id>clipjump</id>
+    <version>12.5</version>
+    <title>Clipjump</title>
+    <authors>Avi Aryan</authors>
+    <owners>SashaChernykh</owners>
+    <licenseUrl>https://github.com/aviaryan/Clipjump</licenseUrl>
+    <projectUrl>http://clipjump.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Clipjump.png</iconUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Clipjump</packageSourceUrl>
+    <docsUrl>http://clipjump.sourceforge.net/help.htm</docsUrl>
+    <mailingListUrl>http://clipjump.sourceforge.net/contact.html</mailingListUrl>
+    <bugTrackerUrl>https://github.com/aviaryan/Clipjump/issues</bugTrackerUrl>
+    <!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will be run frameworkAssemblies snippet. -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Clipjump is a multiple clipboard management utility for Windows.</summary>
+    <description>Clipjump is a multiple clipboard management utility for Windows. It was built to make working with multiple clipboards super fast and super easy. The program records changes in the system clipboard, stores them without any limits and provides innovative ways to work with them. </description>
+    <releaseNotes>
+    + Fixed crashing issues in v12.3 by using TooltipEx  
+    + Now using SQlite database for History  
+    + Ignore quick (200ms) clipboard changes to prevent crashes  
+    + [New] Option to use Win-C and Win-X for copying to Clipjump  
+    + [New] Option to disable automatic clipboard monitoring  
+</releaseNotes>
+    <copyright>Copyright © year</copyright>
+    <!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+    <tags>clipjump clipboard-manager clipboard autohotkey</tags>
+  </metadata>
+    <files>
+          <file src="tools\**" target="tools" />
+    </files>
+</package>
