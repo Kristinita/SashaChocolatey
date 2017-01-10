@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<!-- Press, press Esc key before Tab key pressing, if you see autocomplete variants. -->
+	<metadata>
+		<id>winaero-tweaker</id>
+		<version>0.6.0.9</version>
+		<title>Winaero Tweaker</title>
+		<authors>Sergey Tkachenko</authors>
+		<owners>Sasha Chernykh</owners>
+		<licenseUrl>http://winaero.com/blog/winaero-tweaker-faq/</licenseUrl>
+		<projectUrl>http://winaero.com</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/WinaeroTweaker.png</iconUrl>
+		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Winaero Tweaker</packageSourceUrl>
+		<docsUrl>http://winaero.com/blog/winaero-tweaker-faq/</docsUrl>
+		<mailingListUrl>http://winreview.ru/forum/</mailingListUrl>
+		<bugTrackerUrl>http://winreview.ru/forum/</bugTrackerUrl>
+		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will be run frameworkAssemblies snippet. -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>Winaero Tweaker — tweaker for Windows</summary>
+		<description>Winaero Tweaker - universal tweaker software which supports Windows 7, Windows 8, Windows 8.1 and Windows 10.</description>
+		<releaseNotes>New features of Winaero Tweaker 0.6.0.9  
+
++ The ability to prevent themes from changing icons and mouse cursors:  
+
++ The ability to quickly enable the Auto Completion feature in File Explorer:  
+
++ The ability to hide the Windows Insider Program page in the Settings app in Windows 10:  
+
++ The ability to restore the good old &quot;Open command window here&quot; context menu item in Windows 10 Creators Update:  
+
++ The ability to add the command &quot;Extract the contents&quot; to the context menu of MSI files  
+
++ The ability to activate the new Share pane in Windows 10 build 14971 and above:  
+
++ The ability to activate the new OneDrive flyout in Windows 10 build 14986 and above:  
+
+That's it. Feel free to report any bugs you find and make your own suggestions.</releaseNotes>
+		<copyright>© 2009 - 2017 Winaero.com</copyright>
+		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+		<tags>winaero-tweaker tweaker admin</tags>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools"/>
+	</files>
+</package>
