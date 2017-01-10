@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<!-- Press, press Esc key before Tab key pressing, if you see autocomplete variants. -->
+  <metadata>
+    <id>winstep-nexus</id>
+    <version>16.12</version>
+    <title>Winstep Nexus</title>
+    <authors>Winstep Software Technologies</authors>
+    <owners>Sasha Chernykh</owners>
+    <licenseUrl>http://www.winstep.net/nexus.asp</licenseUrl>
+    <projectUrl>http://www.winstep.net/nexus.asp</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/WinstepNexus.png</iconUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Winstep Nexus</packageSourceUrl>
+    <docsUrl>http://www.winstep.net/nexus.asp</docsUrl>
+    <mailingListUrl>http://www.winstep.net/support.asp</mailingListUrl>
+    <bugTrackerUrl>http://forums.winstep.net/phpBB2/index.php</bugTrackerUrl>
+    <!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will be run frameworkAssemblies snippet. -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>The Advanced Docking System for Windows</summary>
+    <description>The Winstep Nexus Dock is a FREE professional dock for Windows. With Nexus, your most frequently used applications are only a mouse click away - and Nexus turns working with your computer into a fun and exciting experience.  
+
+Nexus Ultimate is an enhanced version of the free-to-use Nexus dock which is available stand-alone or as a component of Winstep Xtreme (a single easy-to-install package featuring all of Winstep's popular desktop enhancement products for Windows). </description>
+    <releaseNotes>Bugs fixed</releaseNotes>
+    <copyright>Copyright © 2010 Winstep All Rights Reserved</copyright>
+    <!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+    <tags>winstep-nexus rocketdock docker dock admin</tags>
+  </metadata>
+    <files>
+          <file src="tools\**" target="tools" />
+    </files>
+</package>
