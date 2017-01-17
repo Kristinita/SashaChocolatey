@@ -52,6 +52,8 @@ If you can to be a maintainer any of these programs, it would be nice too.
 + Sothink SWF EASY,
 + FileASSASSIN,
 + Audio Converter Extractor Max,
-+ EasyBSD
 + Rollback rx
 + iReboot
++ MozBackup
++ Folder Marker
++ Restore Point Creator

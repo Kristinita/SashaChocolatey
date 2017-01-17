@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<!-- Press, press Esc key before Tab key pressing, if you see autocomplete variants. -->
+  <metadata>
+    <id>yandexdisk</id>
+    <version>1.0.0</version>
+    <title>Yandex.Disk</title>
+    <authors>Yandex</authors>
+    <owners>Sasha Chernykh</owners>
+    <licenseUrl>https://yandex.com/support/legal/disk_termsofuse/</licenseUrl>
+    <projectUrl>https://disk.yandex.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/YandexDisk.png</iconUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Yandex.Disk</packageSourceUrl>
+    <docsUrl>https://yandex.com/support/disk/index.html</docsUrl>
+    <mailingListUrl>https://yandex.com/support/disk/troubleshooting/opinion.html</mailingListUrl>
+    <bugTrackerUrl>https://yandex.ru/blog/apidisk</bugTrackerUrl>
+    <!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will be run frameworkAssemblies snippet. -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>File synchronization between PC and cloud storage.</summary>
+    <description>Files uploaded to Yandex.Disk are saved in the cloud . This means that you will have access to them from any device connected to the internet. You can't lose them even in the event that something happens to your computer or phone.</description>
+    <releaseNotes>Bugs Fixed</releaseNotes>
+    <copyright>© 2012—2017 «Яндекс»</copyright>
+    <!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+    <tags>yanexdisk yandex storage cloud cloudstore synchronization admin</tags>
+    <dependencies>
+      <dependency id="autohotkey.portable" version="1.0" />
+    </dependencies>
+  </metadata>
+    <files>
+          <file src="tools\**" target="tools" />
+    </files>
+</package>

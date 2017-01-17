@@ -24,6 +24,9 @@
     + Other bug fixes and minor improvements  </releaseNotes>
     <copyright>Copyright © 2016 year Mega Limited</copyright>
     <tags>mega file-hosting cloud-storage admin</tags>
+        <dependencies>
+      <dependency id="autohotkey.portable" />
+</dependencies>
   </metadata>
     <files>
           <file src="tools\**" target="tools" />
