@@ -4,7 +4,7 @@ Packages of [oderzhimyi_Sashei](https://chocolatey.org/profiles/oderzhimyi_Sashe
 
 ## I can not create packages
 
-If you may tell me in detail, how I can to create packages for these applications or you can to be a maintainer of these packages yourself, I will be glad :smiley_cat:.
+If you may tell me in details, how I can to create packages for these applications or you can to be a maintainer of these packages yourself, I will be glad :smiley_cat:.
 
 ### Not silent installation
 
