@@ -30,7 +30,6 @@ If you can to be a maintainer any of these programs, it would be nice too.
 + gtypist,
 + ICQ,
 + JAP/Jondo,
-+ Key Catcher,
 + Kies,
 + Meazure,
 + Offline Explorer,
@@ -59,3 +58,4 @@ If you can to be a maintainer any of these programs, it would be nice too.
 + Restore Point Creator,
 + Microsoft Keyboard Layout Creator,
 + Easy Context Menu,
++ KeyloggerOSD
