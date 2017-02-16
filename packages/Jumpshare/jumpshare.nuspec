@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>jumpshare</id>
-    <version>2.0.9</version>
+    <version>2.0.10</version>
     <owners>Sasha Chernykh</owners>
     <title>Jumpshare</title>
     <authors>Ghaus Iftikhar</authors>
@@ -17,15 +17,34 @@
     <tags>jumpshare file-sharing online-storage storage cloud-storage admin</tags>
     <summary>Jumpshare is program for incredibly fast, real-time file sharing</summary>
     <description>
-    	    + Quickly capture and share anything;
-    	    + Collaborate at the speed of thought;
-    	    + Organize everything in one place;
-    	    + Work with your files on the go;
-    	    + A delightful viewing experience;
-    	    + Automatically integrates with hundreds of apps.
+    	    * Quickly capture and share anything;
+    	    * Collaborate at the speed of thought;
+    	    * Organize everything in one place;
+    	    * Work with your files on the go;
+    	    * A delightful viewing experience;
+    	    * Automatically integrates with hundreds of apps.
     </description>
     <releaseNotes>
-    	+ Introducing comments: get feedback and collaborate faster with everyone.
+    * Ability to save screenshots to desktop after annotation (Plus feature);
+    * Now you can use Jumpshare during screen recording in fullscreen mode;
+    * App updates in real time on upgrading to Jumpshare Plus;
+    * Brand new built-in App Updater;
+    * Enable or disable notifications from Preferences;
+    * Jumpshare hotkey support for Adobe Illustrator;
+    * Improved behavior of Audio Recording tool when no microphone is found;
+    * Improved behavior of annotation tool when annotating existing image;
+    * Added option to visit web dashboard in cog wheel dropdown menu;
+    * Added email address of logged in user in cog wheel drop down menu;
+    * Allow Screencast and audio tool to work without microphone;
+    * Allow screenshot capture when user is offline, the upload will start when you * connect to the internet;
+    * Optimize screenshot capture tool for pixel perfect output;
+    * Fixed links sometimes not opening on default browser;
+    * Fixed app failing to capture whole screen when taking a screenshot;
+    * Fixeds screencast not working in 32-bit OS;
+    * Fixed blur not working;
+    * Fixed the fullscreen screencast recording problem that prevented you from * stopping the screencast;
+    * Fixed app not starting from the tray with one click after a system reboot in * macOS;
+    * Various bug fixes, performance improvements, and user interface tweaks.
     </releaseNotes>
   </metadata>
   <files>
