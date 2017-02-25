@@ -17,7 +17,7 @@ If you may tell me in details, how I can to create packages for these applicatio
 
 ### Other problems
 
-+ [Winstep Nexus](http://www.winstep.net/nexus.asp) — I can not uninstall package silently;
++ [Winstep Nexus](http://www.winstep.net/nexus.asp) — I can not uninstall package silent;
 + [Winaero Tweaker](http://winaero.com/comment.php?comment.news.1836) — for downloading file constantly changing hashes.
 + [AceStream](http://acestream.org/) — incorrect installation use right silent key `/S`.
 
@@ -33,7 +33,6 @@ If you can to be a maintainer any of these programs, it would be nice too.
 + Kies,
 + Meazure,
 + Offline Explorer,
-+ Performance Maintainer,
 + Registry backup,
 + SIQuester,
 + Types,
@@ -60,6 +59,4 @@ If you can to be a maintainer any of these programs, it would be nice too.
 + Easy Context Menu,
 + KeyloggerOSD
 + Git Time Metric
-+ Puran Utilites
-+ Wize Memory Optimizer
 + HjsSplit
