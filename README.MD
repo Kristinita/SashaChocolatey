@@ -61,3 +61,5 @@ If you can to be a maintainer any of these programs, it would be nice too.
 + KeyloggerOSD
 + Git Time Metric
 + Puran Utilites
++ Wize Memory Optimizer
++ HjsSplit
