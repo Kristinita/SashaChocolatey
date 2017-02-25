@@ -1,6 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
+  	<!-- id — lowercase name of package, title — real name of program -->
     <id>vidi-dc</id>
     <version>1.0.0</version>
     <owners>Sasha Chernykh</owners>

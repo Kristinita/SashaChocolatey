@@ -29,7 +29,7 @@ By allowing you to change the folder icons, Folder Marker will help you to cope 
 Folder Marker is for anyone who wants to make working with a computer more convenient. Folder Marker is for you. Download Folder Marker now! </description>
 		<releaseNotes>Bugs Fixed</releaseNotes>
 		<copyright>Copyright © 2006-2017 ArcticLine Software. All rights reserved.</copyright>
-		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+		<!-- Add «admin» (without «qoutes») tag, if your package are extension .exe or .msi -->
 		<tags>folder-marker icon folder-icon admin</tags>
 	</metadata>
 	<files>
