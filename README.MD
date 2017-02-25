@@ -26,7 +26,6 @@ If you may tell me in details, how I can to create packages for these applicatio
 If you can to be a maintainer any of these programs, it would be nice too.
 
 + DroidExplorer,
-+ Gramblr,
 + gtypist,
 + ICQ,
 + JAP/Jondo,
@@ -56,6 +55,6 @@ If you can to be a maintainer any of these programs, it would be nice too.
 + Restore Point Creator,
 + Microsoft Keyboard Layout Creator,
 + Easy Context Menu,
-+ KeyloggerOSD
-+ Git Time Metric
++ KateLogger,
++ Git Time Metric,
 + HjsSplit

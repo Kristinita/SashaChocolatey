@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+	<metadata>
+		<!-- id — lowercase name of package, title — real name of program -->
+		<id>folder-marker</id>
+		<version>4.2</version>
+		<title>Folder Marker Free</title>
+		<authors>ArcticLine Software</authors>
+		<owners>Sasha Chernykh</owners>
+		<licenseUrl>http://foldermarker.com/en/terms/</licenseUrl>
+		<projectUrl>http://foldermarker.com/en/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Folder-Marker.png</iconUrl>
+		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Folder Marker Free</packageSourceUrl>
+		<docsUrl>http://foldermarker.com/en/compare-versions/</docsUrl>
+		<mailingListUrl>http://foldermarker.com/support/index.php?a=add</mailingListUrl>
+		<bugTrackerUrl>http://foldermarker.com/support/</bugTrackerUrl>
+		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>Change folder icon with color-coded and image-coded icon. </summary>
+		<description>How many folders do you have on your computer? Scores of them? Hundreds? Thousands? Are all of them are alike: yellow folder, yellow folder, yellow folder, yellow folder... It's so easy to be confused with such a routine!  
+
+Folder Marker is your small assistant, an ardent fighter for your convenience and comfort in any kind of computer work. Use Folder Marker to mark your folders. One mouse-click and it becomes clear at once which documents have a high priority, and which of them have a normal or low priority. It is easy to see which operations have been finished completely, which are partly done and which haven't been started yet.
+
+Do you fear that someone might unintentionally delete information necessary to you? Mark a folder, and other users will notice at once that that folder contains important information.
+
+By allowing you to change the folder icons, Folder Marker will help you to cope with the standard yellowness. Folder Marker adds an item &quot;Mark Folder&quot; in the folder popup menu. Changing a folder icon is now a piece of cake.
+
+Folder Marker is for anyone who wants to make working with a computer more convenient. Folder Marker is for you. Download Folder Marker now! </description>
+		<releaseNotes>Bugs Fixed</releaseNotes>
+		<copyright>Copyright © 2006-2017 ArcticLine Software. All rights reserved.</copyright>
+		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+		<tags>folder-marker icon folder-icon admin</tags>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools"/>
+	</files>
+</package>
