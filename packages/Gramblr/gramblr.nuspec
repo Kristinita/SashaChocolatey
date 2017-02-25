@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+	<metadata>
+		<!-- id — lowercase name of package, title — real name of program -->
+		<id>gramblr</id>
+		<version>2.8.1</version>
+		<title>Gramblr</title>
+		<authors>Gramblr</authors>
+		<owners>Sasha Chernykh</owners>
+		<licenseUrl>http://gramblr.com/uploader/terms.html</licenseUrl>
+		<projectUrl>http://gramblr.com</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Gramblr.png</iconUrl>
+		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Gramblr</packageSourceUrl>
+		<mailingListUrl>http://gramblr.com/uploader/#contact</mailingListUrl>
+		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>Gramblr is a desktop application that allows you to upload pictures or videos on Instagram. It features a similar upload wizard — so that you don't need a smartphone.
+		</summary>
+		<description>Once you have Gramblr's photo uploader (version 1), you just:  
+		* 1. Sign in to Instagram  
+		* 2. Choose the photo you would like to upload  
+		* 3. Add a caption  
+		* 4. Hit upload  
+		* 5. If the text boxes are empty on the confirmation window, something went wrong...  
+		try again and it should work!
+		</description>
+		<releaseNotes>Bugs fixed</releaseNotes>
+		<copyright>Gramblr © 2011-2017. All Rights Reserved.</copyright>
+		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+		<tags>gramblr Instagram</tags>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools"/>
+	</files>
+</package>

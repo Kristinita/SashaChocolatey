@@ -30,7 +30,6 @@ If you can to be a maintainer any of these programs, it would be nice too.
 + gtypist,
 + ICQ,
 + JAP/Jondo,
-+ Kies,
 + Meazure,
 + Offline Explorer,
 + Registry backup,
