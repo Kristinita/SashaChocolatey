@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>wox</id>
+    <title>Wox</title>
+    <version>1.3.183</version>
+    <authors>qianlifeng</authors>
+    <owners>CkEsc, Sasha Chernykh</owners>
+    <summary>A launcher for Windows</summary>
+    <description>Wox is a launcher for Windows, which was inspired by Alfred and Launchy. Wox provide an entry to search everything you want.</description>
+    <projectUrl>http://www.getwox.com</projectUrl>
+    <tags>wox launcher</tags>
+    <copyright>Copyright (c) 2013 qianlifeng</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/qianlifeng/Wox/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Wox.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>bug fixes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
