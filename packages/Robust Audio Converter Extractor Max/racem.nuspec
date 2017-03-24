@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+  <metadata>
+  	<!-- id — lowercase name of package, title — real name of program -->
+    <id>racem</id>
+    <version>1.0.0</version>
+    <title>Robust Audio Converter Extractor Max</title>
+    <authors>Robust.ws</authors>
+    <owners>Sasha Chernykh</owners>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Robust.png</iconUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Robust Audio Converter Extractor Max</packageSourceUrl>
+    <!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>GUI free audio converter</summary>
+    <description>Audio Converter Extractor Max is an easy to use tool to convert audio files to various audio formats and extract audio from video files to various audio formats. The program can also rip audio CD tracks to the supported formats.</description>
+    <releaseNotes>* Supported Input Audio Formats: cda,wav,wma,mp1,mp2,mp3,mp4,ogg,aac,alac,flac,ac3,spx,mpc,tta, ape,ofr,midi,adx,mod,mo3.  
+*   Supported Input Video Formats: .wmv,asf,avi,mpg,mp2,mpeg,mp4,mov,dat  
+*   Supported Output Audio Formats: wav,wma,mp3,ogg  
+*   Supports Ripping Audio CD Track using fast and direct method for ripping.  
+*   Easy-to-use design.  
+*   Support the most popular audio formats  
+*   Supports multiple CD-R/RW drives for Ripping.  
+*   Play back toolbar for listening to files before converting.  
+*   Automatic generation for track names.  
+*   Variety range of encoders</releaseNotes>
+    <copyright>Copyright (C) 2010 Robust.ws</copyright>
+    <!-- Write tags through spaces -->
+    <!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+    <tags>racem sobust-audio-converter-extractor-max racem audio-converter audio converter mp3 ogg flac wma admin</tags>
+  </metadata>
+    <files>
+          <file src="tools\**" target="tools" />
+    </files>
+</package>

@@ -1,35 +1,25 @@
-#NoEnv
-#NoTrayIcon
-
-SendMode Input
-SetWorkingDir %A_ScriptDir%
-WinWait, MEGAsync 2.9.10 Setup  ahk_class #32770
-WinActivate
-
-BlockInput On
-
-Send, !a
-Sleep, 100
-Send, {LShift Down}
-Sleep, 100
-Send, {Tab}
-Sleep, 100
-Send, {Tab}
-Sleep, 100
-Send, {LShift Up}
-Sleep, 100
-Send, {Up}
-Sleep, 100
+Sleep, 10000
+WinActivate, MEGAsync 3.0.1 Setup  ahk_class #32770
+Send, {Enter}
+Sleep, 1000
+Send, {Enter}
+Sleep, 1000
 Send, {LAlt Down}
-Sleep, 100
-Send, {n}
-Sleep, 100
+Sleep, 1000
+Send, {a}
+Sleep, 1000
 Send, {LAlt Up}
-Sleep, 100
+Sleep, 1000
+Send, {Tab}
+Sleep, 1000
+Send, {Tab}
+Sleep, 1000
+Send, {Space}
+Sleep, 1000
 Send, {Enter}
-Sleep, 100
+Sleep, 1000
 Send, {Enter}
-
-BlockInput Off
-
-
+Sleep, 15000
+Send, {Space}
+Sleep, 1000
+Send, {Enter}

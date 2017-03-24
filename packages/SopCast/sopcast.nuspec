@@ -11,7 +11,6 @@
 		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/SopCast.png</iconUrl>
 		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/SopCast</packageSourceUrl>
 		<docsUrl>http://www.sopcast.com/docs/</docsUrl>
-		<mailingListUrl>http://www.sopcast.com/info/contact.html</mailingListUrl>
 		<bugTrackerUrl>http://www.sopcast.com/info/contact.html</bugTrackerUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<summary>SopCast is program for free P2P Internet TV</summary>
@@ -29,7 +28,7 @@
 		+ Minor bugs Fixed.
 	</releaseNotes>
 		<copyright>Copyright © 2007 SopCast.com. All Rights Reserved.</copyright>
-		<tags>sopcast streaming p2p live-broadcasting live-streaming </tags>
+		<tags>sopcast streaming p2p live-broadcasting live-streaming</tags>
 	</metadata>
 	<files>
 		<file src="tools\**" target="tools"/>
