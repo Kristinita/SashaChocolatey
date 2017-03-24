@@ -1,20 +1,20 @@
 $ErrorActionPreference = 'Stop';
 
 $packageName = 'SopCast'
-$toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir    = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $url         = 'https://github.com/Kristinita/KristinitaTest/raw/master/exe/Setup-SopCast-4.2.0-2016-5-26.exe'
-$url64       = 'https://github.com/Kristinita/KristinitaTest/raw/master/exe/Setup-SopCast-4.2.0-2016-5-26.exe'
+$url64       = ''
 
 $packageArgs = @{
   packageName   = $packageName
-  unzipLocation = $toolsDir
+
   fileType      = 'exe'
   url           = $url
   url64bit      = $url64
 
-  checksum      = '831E32924F756EACB06E757F5812FA9B2F45F5ADC9C794FDF6330935262285E1'
+  checksum      = '174E7CE19D419780C196B76730985CE3177004C232BFEB39E9E9D2CEEAB5E18B'
   checksumType  = 'sha256'
-  checksum64    = '831E32924F756EACB06E757F5812FA9B2F45F5ADC9C794FDF6330935262285E1'
+  checksum64    = ''
   checksumType64= 'sha256'
 
   ######
@@ -31,6 +31,7 @@ $packageArgs = @{
 
 }
 
+# AutoHotkey
 $ahkExe = 'AutoHotKey'
 $ahkFile = Join-Path $toolsDir "sopcast.ahk"
 $ahkProc = Start-Process -FilePath $ahkExe `
@@ -38,8 +39,6 @@ $ahkProc = Start-Process -FilePath $ahkExe `
                          -PassThru
 
 $ahkId = $ahkProc.Id
-Write-Debug "$ahkExe start time:`t$($ahkProc.StartTime.ToShortTimeString())"
-Write-Debug "Process ID:`t$ahkId"
 
 
 Install-ChocolateyPackage @packageArgs

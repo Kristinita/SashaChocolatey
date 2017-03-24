@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+  <metadata>
+  	<!-- id — lowercase name of package, title — real name of program -->
+    <id>gtm</id>
+    <version>1.2.7</version>
+    <title>Git Time Metric</title>
+    <authors>https://github.com/git-time-metric/gtm/blob/master/AUTHORS</authors>
+    <owners>Sasha Chernykh</owners>
+    <licenseUrl>https://github.com/git-time-metric/gtm/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/git-time-metric/gtm</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Git-Time-Metric.png</iconUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Git Time Metric</packageSourceUrl>
+    <docsUrl>https://github.com/git-time-metric/gtm/wiki</docsUrl>
+    <!-- Points to the forum or email list group for the software. -->
+    <bugTrackerUrl>https://github.com/git-time-metric/gtm/issues</bugTrackerUrl>
+    <!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Seamless time tracking for all your Git projects.</summary>
+    <description>GTM is automatic, seamless and lightweight. There is no need to remember to start and stop timers. It runs on occasion to capture activity triggered by your editor. The time metrics are stored locally with the git repository as Git notes and can be pushed to the remote repository.</description>
+    <releaseNotes>* Option to clean only terminal time data,  
+* More robust post-commit hook.</releaseNotes>
+    <copyright>Copyright (c) 2016 Michael Schenk</copyright>
+    <!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+    <tags>git-time-metric gtm git time-tracking</tags>
+    <dependencies>
+      <dependency id="git" />
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+    <files>
+          <file src="tools\**" target="tools" />
+    </files>
+</package>

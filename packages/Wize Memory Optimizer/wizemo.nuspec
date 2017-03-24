@@ -4,22 +4,20 @@
 	<metadata>
 		<!-- id — lowercase name of package, title — real name of program -->
 		<id>wizemo</id>
-		<version>3.49</version>
+		<version>3.51</version>
 		<title>Wize Memory Optimizer</title>
 		<authors>WiseCleaner.com</authors>
 		<owners>Sasha Chernykh</owners>
-		<licenseUrl>http://license_url</licenseUrl>
 		<projectUrl>http://www.wisecleaner.com/wise-memory-optimizer.html</projectUrl>
 		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Wize-Memory-Optimizer.png</iconUrl>
 		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Wize Memory Optimizer</packageSourceUrl>
 		<docsUrl>http://www.wisecleaner.com/wise-memory-optimizer-user-guide.html</docsUrl>
-		<mailingListUrl>http://www.wisecleaner.com/help.html</mailingListUrl>
-		<bugTrackerUrl>http://forum.wisecleaner.com/index.php?/forum/6-other-wisecleaner-products/</bugTrackerUrl>
+		<mailingListUrl>http://forum.wisecleaner.com/index.php?/forum/6-other-wisecleaner-products/</mailingListUrl>
 		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<summary>Easy to defrag memory and free up more memory with one-click.</summary>
 		<description>Wise Memory Optimizer is a free memory optimization tool. With the exclusive memory defrag technology, it can help you clean up memory, thus making the applications run faster.</description>
-		<releaseNotes>* Improved the program's robustness.  
+		<releaseNotes>* Improved the program's robustness.
     	* Improved localization and language support.
 		</releaseNotes>
 		<copyright>Copyright 2006-2017 WiseCleaner.com All Rights Reserved</copyright>
