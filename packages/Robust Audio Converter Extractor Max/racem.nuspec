@@ -8,6 +8,7 @@
     <title>Robust Audio Converter Extractor Max</title>
     <authors>Robust.ws</authors>
     <owners>Sasha Chernykh</owners>
+    <projectUrl>http://www.softpedia.com/get/Multimedia/Audio/Audio-Convertors/Audio-Converter-Extractor-Max.shtml</projectUrl>
     <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Robust.png</iconUrl>
     <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Robust Audio Converter Extractor Max</packageSourceUrl>
     <!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->

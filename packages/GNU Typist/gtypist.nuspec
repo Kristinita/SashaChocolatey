@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+  <metadata>
+  	<!-- id — lowercase name of package, title — real name of program -->
+    <id>gtypist</id>
+    <version>2.9.5</version>
+    <title>GNU Typist</title>
+    <authors>Tim Marston</authors>
+    <owners>Sasha Chernykh</owners>
+    <licenseUrl>https://creativecommons.org/licenses/by-nd/4.0/</licenseUrl>
+    <projectUrl>https://www.gnu.org/software/gtypist/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/GNU Typist.png</iconUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/GNU Typist</packageSourceUrl>
+    <docsUrl>https://www.gnu.org/software/gtypist/doc/</docsUrl>
+    <!-- Points to the forum or email list group for the software. -->
+    <mailingListUrl>https://lists.gnu.org/mailman/listinfo/info-gnu</mailingListUrl>
+    <bugTrackerUrl>mailto:bug-gtypist@gnu.org</bugTrackerUrl>
+    <!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>GNU Typist — a program to learn typing in several languages and for different keyboard layouts</summary>
+    <description>GNU Typist (also called gtypist) is a universal typing tutor. You can learn correct typing and improve your skills by practising its exercises on a regular basis. Its main features are: </description>
+    <releaseNotes>Bugs fixed.</releaseNotes>
+    <copyright>Copyright © 2000, 2001, 2003, 2006, 2008, 2016 Free Software Foundation, Inc.</copyright>
+    <!-- Write tags through spaces -->
+    <!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+    <tags>gnu-typist gtypist keyboard typing fast-typing keyboard-trainer</tags>
+  </metadata>
+    <files>
+          <file src="tools\**" target="tools" />
+    </files>
+</package>

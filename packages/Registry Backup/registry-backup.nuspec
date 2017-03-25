@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+	<metadata>
+		<!-- id — lowercase name of package, title — real name of program -->
+		<id>registry-backup</id>
+		<version>3.5.3</version>
+		<title>Registry Backup</title>
+		<authors>Tweaking.com</authors>
+		<owners>Sasha Chernykh</owners>
+		<licenseUrl>http://www.tweaking.com/content/page/registry_backup.html</licenseUrl>
+		<projectUrl>http://www.tweaking.com/content/page/registry_backup.html</projectUrl>
+		<!-- It would be nice, if you don't use whitespaces in path to image -->
+		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Registry-Backup.png</iconUrl>
+		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Registry Backup</packageSourceUrl>
+		<docsUrl>http://www.tweaking.com/articles/pages/tweaking_com_registry_backup_online_help.html</docsUrl>
+		<!-- Points to the forum or email list group for the software. -->
+		<mailingListUrl>http://www.tweaking.com/forums/</mailingListUrl>
+		<bugTrackerUrl>http://www.tweaking.com/forums/</bugTrackerUrl>
+		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>Registry Backup is a free backup tool that will use the Windows Volume Shadow Copy Service to backup your system registry.</summary>
+		<description>* The program is 100% free.  
+* One click backup and restore.  
+* Can restore from Windows Safe Mode.  
+* Portable version can be ran from a thumb drive and keep backups of multiple systems.  
+* Automatic cleanup of older backups.  
+* Set and control scheduling options.  
+* Can backup and restore all user profiles on the system, not just the ones that are currently loaded.  
+* Control which registry files are backed up or restored.  
+* Detailed logs are saved with each backup.  
+* Multiple easy restore options.  
+* Online videos showing how to use the program and how to use the different restore options.</description>
+		<releaseNotes>Fixed and adjusted multiple areas of the user interface to better handle systems with high DPI enabled. Many new laptops are coming with HD screens that have a very large resolution and so their DPI is set very high to make programs and text readable. When this increase DPI was set many parts of the program didn't draw correctly. There are still a few areas that need adjusting but all the major ones have been fixed.</releaseNotes>
+		<copyright>© 2017 Tweaking.com</copyright>
+		<!-- Write tags through spaces -->
+		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+		<tags>registry-backup registry admin</tags>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>

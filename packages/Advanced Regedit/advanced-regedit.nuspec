@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+	<metadata>
+		<!-- id — lowercase name of package, title — real name of program -->
+		<id>advanced-regedit</id>
+		<version>3.3</version>
+		<title>Advanced Regedit</title>
+		<authors>Alexander Melkov</authors>
+		<owners>Sasha Chernykh</owners>
+		<licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</licenseUrl>
+		<projectUrl>https://sourceforge.net/projects/regedt33/</projectUrl>
+		<!-- It would be nice, if you don't use whitespaces in path to image. -->
+		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/advanced-regedit.png</iconUrl>
+		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Advanced Regedit</packageSourceUrl>
+		<docsUrl>https://sourceforge.net/p/regedt33/wiki/Home/</docsUrl>
+		<!-- Points to the forum or email list group for the software. -->
+		<mailingListUrl>https://sourceforge.net/p/regedt33/discussion/</mailingListUrl>
+		<bugTrackerUrl>https://sourceforge.net/p/regedt33/bugs/</bugTrackerUrl>
+		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>Alternative Windows Registry editor.</summary>
+		<description>This program mostly covers MS Windows Regedit functionality (some things are still missing, though). In fact, the only 'advanced feature' at this time is a search/replace function.</description>
+		<releaseNotes>Bugs fixed.</releaseNotes>
+		<!-- <copyright>Copyright © year</copyright> -->
+		<!-- Write tags through spaces -->
+		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+		<tags>advanced-regedit regedit registry</tags>
+		<!-- <dependencies>
+		      <dependency id="sample_dependency" version="1.0" />
+		    </dependencies> -->
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>

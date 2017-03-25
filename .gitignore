@@ -10,6 +10,7 @@ _ReSharper*
 *.user
 *.bak
 *.orig
+*.ini
 
 *.nupkg
 .editorconfig

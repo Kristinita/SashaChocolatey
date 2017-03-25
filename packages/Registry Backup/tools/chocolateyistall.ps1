@@ -1,9 +1,9 @@
 $ErrorActionPreference = 'Stop';
 
 # Insert here full correct name of program, not Chocolatey package name. For example, correct «Performance Maintainer», not «pername».
-$packageName = 'Robust Audio Converter Extractor Max'
+$packageName = 'Registry Backup'
 # Don't forget specify protocol for URL's!
-$url         = 'https://github.com/Kristinita/SashaChocolatey/blob/master/exe/Robust%20Audio%20Converter%20Extractor%20Max/rax.exe?raw=true'
+$url         = 'http://www.tweaking.com/files/setups/tweaking.com_registry_backup_setup.exe'
 $url64       = ''
 
 $packageArgs = @{
@@ -16,7 +16,7 @@ $packageArgs = @{
   # If exit code — 1223, program will be still installed with success.
   validExitCodes = (0, 1223)
 
-  checksum      = '10814019E58E28CF0B6ED776C9B40AA1E6B2F4B202BB01A4898C1D667F5CB914'
+  checksum      = '8D830CE7B51A712B4569AEC14FD2FA49C16D15764C6758CD81584978FD140077'
   checksumType  = 'sha256'
   checksum64    = ''
   checksumType64= 'sha256'
@@ -33,7 +33,7 @@ $packageArgs = @{
   # silentArgs   = '-q'           # Install4j
   # silentArgs   = '-s -u'        # Ghost
 
-  silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+  silentArgs   = '/S'
 }
 
 Install-ChocolateyPackage @packageArgs

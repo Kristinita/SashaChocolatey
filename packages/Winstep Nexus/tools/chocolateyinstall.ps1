@@ -13,9 +13,9 @@ $UnzipArgs = @{
   url           = $url
   url64bit      = $url64
 
-  checksum        = 'DD3E1C9121B56595D5B94B6EA33F3206B75C90C5334D6B13E240D3EC38637A27'
+  checksum        = 'F06BA96DD3B6BA858AB5D10C78540F834A3CE7AE3F0AD781556F919F37AB7AFB'
   checksumType    = 'sha256'
-  checksum64      = 'DD3E1C9121B56595D5B94B6EA33F3206B75C90C5334D6B13E240D3EC38637A27'
+  checksum64      = ''
   checksumType64  = 'sha256'
 
 }

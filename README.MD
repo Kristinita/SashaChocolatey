@@ -1,37 +1,35 @@
-Packages of [oderzhimyi_Sashei](https://chocolatey.org/profiles/oderzhimyi_Sashei) for [Chocolatey](https://chocolatey.org/) — package manager for Windows.
+Packages of [**oderzhimyi_Sashei**](https://chocolatey.org/profiles/oderzhimyi_Sashei) for [**Chocolatey**](https://chocolatey.org/) — package manager for Windows.
 
 ![Sasha Icon](icons/SashaChocolatey.jpg)
 
-## I can not create packages
+---
 
-If you may tell me in details, how I can to create packages for these applications or you can to be a maintainer of these packages yourself, I will be glad :smiley_cat:.
+### 1. Need help
 
-### Not silent installation
+It would be nice, if you tell me, how I can fix these problems. **Pull requests welcome!**
 
-+ [MEGA](https://mega.nz/#sync),
-+ [Yandex.Disk](https://disk.yandex.ru/download/#pc),
-+ [Preme for Windows](http://www.premeforwindows.com/),
-+ [Olympus 2100PC driver](http://download.driverguide.com/driver/VN-2100PC/Olympus/d958734.html),
-+ [The Wonderful Icon](http://www.thewonderfulicon.com/),
-+ [SopCast](http://www.sopcast.com/).
++ [Avanced Regedit]() — downloading exe file without installation. But I don't know, how I can Chocolatey package.
++ [**MEGA**](https://github.com/Kristinita/SashaChocolatey/tree/master/packages/MEGA) — MEGA succesful install, but terminal hangs, see **<https://gist.github.com/Kristinita/0993160622939eba1a461fb34f8dc12b>**;
++ GNU Typist — package install succesful, but `exe`, created via ShimGen, incorrect;
++ [**Olympus 2100PC driver**](http://download.driverguide.com/driver/VN-2100PC/Olympus/d958734.html) — package not install silent and I need to use a mouse in installation process. I don't can to use hotkeys in installation process.
++ [**SopCast**](https://github.com/Kristinita/SashaChocolatey/tree/master/packages/SopCast) — SopCast succesful install, but I get exit code 4, see **<https://gist.github.com/Kristinita/dc502edf878faaee32f1983257f7cec1>**;
++ [**Winaero Tweaker**](https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Winaero%20Tweaker) — for downloading file constantly changing hashes. I don't get correct download link;
++ [**AceStream**](http://acestream.org/) — incorrect installation use right silent key `/S`.
 
-### Other problems
+---
 
-+ [Winstep Nexus](http://www.winstep.net/nexus.asp) — I can not uninstall package silent;
-+ [Winaero Tweaker](http://winaero.com/comment.php?comment.news.1836) — for downloading file constantly changing hashes.
-+ [AceStream](http://acestream.org/) — incorrect installation use right silent key `/S`.
+### 2. TODO
 
-## TODO
+If you can to be a maintainer of package for any of these programs, it would be nice too.
 
-If you can to be a maintainer any of these programs, it would be nice too.
-
++ Yandex.Disk,
++ Preme for Windows,
++ The Wonderful Icon,
 + DroidExplorer,
-+ gtypist,
 + ICQ,
 + JAP/Jondo,
 + Meazure,
 + Offline Explorer,
-+ Registry backup,
 + SIQuester,
 + Types,
 + US Downloader,
@@ -47,14 +45,11 @@ If you can to be a maintainer any of these programs, it would be nice too.
 + FontViewOK,
 + Sothink SWF EASY,
 + FileASSASSIN,
-+ Audio Converter Extractor Max,
 + Rollback rx,
 + iReboot,
 + MozBackup,
-+ Folder Marker,
 + Restore Point Creator,
 + Microsoft Keyboard Layout Creator,
 + Easy Context Menu,
 + KateLogger,
-+ Git Time Metric,
 + HjsSplit
