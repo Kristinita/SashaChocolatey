@@ -14,7 +14,7 @@
     <docsUrl>http://www.winstep.net/nexus.asp</docsUrl>
     <mailingListUrl>http://www.winstep.net/support.asp</mailingListUrl>
     <bugTrackerUrl>http://forums.winstep.net/phpBB2/index.php</bugTrackerUrl>
-    <!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will be run frameworkAssemblies snippet. -->
+    <!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>The Advanced Docking System for Windows</summary>
     <description>The Winstep Nexus Dock is a FREE professional dock for Windows. With Nexus, your most frequently used applications are only a mouse click away - and Nexus turns working with your computer into a fun and exciting experience.  

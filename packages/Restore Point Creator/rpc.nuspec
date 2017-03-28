@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+	<metadata>
+		<!-- id — lowercase name of package, title — real name of program -->
+		<id>rpc</id>
+		<version>6.0</version>
+		<title>Restore Point Creator</title>
+		<authors>Thomas R. Parkison</authors>
+		<owners>Sasha Chernykh</owners>
+		<projectUrl>https://www.toms-world.org/blog/restore_point_creator</projectUrl>
+		<!-- It would be nice, if you don't use whitespaces in path to image. -->
+		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Restore-Point-Creator.png</iconUrl>
+		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Restore Point Creator</packageSourceUrl>
+		<docsUrl>https://www.toms-world.org/blog/restore_point_creator/faq</docsUrl>
+		<!-- Points to the forum or email list group for the software. -->
+		<bugTrackerUrl>https://bitbucket.org/trparky/restore_point_creator/issues</bugTrackerUrl>
+		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>Managing Windows System Restore Points</summary>
+		<description>Ever found that creating Restore Points in Windows is a bit tedious?  Click this, click that, go there, click another thing, and then finally you’re at where you need to be to create a Restore Point.  There’s got to be an easier way to do all of that.  Right?  Well, now there is.
+
+Introducing Restore Point Creator, written by Me.
+
+Create and manage System Restore Points quickly and easily, all from a free simple program.  No more drilling through multiple menus in Windows just to create a System Restore Point, now all you have to do is run this program and that’s it.  Follow the simple program layout and you have your System Restore Point created in no time at all.
+
+Plus, for users of Windows 7 and Windows 8, creating System Restore Points is even quicker and easier with this program.  Just pin this program to the Taskbar and you have the ability to quickly create System Restore Points using one of the two pinned Tasks (“Create System Checkpoint” and “Create Custom Named”) that the program creates.  It’s that simple.
+
+    Create System Checkpoint — Creates a System Restore Point with the name of “System Checkpoint made by System Restore Point Creator”
+    Create Custom Named — Asks you what you want your System Restore Point to be named and then creates one based upon what you inputted.</description>
+		<releaseNotes>* Added code to the update XML file parser to simplify the data needed in the XML file, specifically the "betaRCVersion" node.
+    * Moved some code around internal to the program.
+    * Added the ability to ignore a version at update time. If you ignore a version it will ignore it when ever the program checks for an update and notate it in the application log that it was ignored.</releaseNotes>
+		<!-- Write tags through spaces -->
+		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+		<tags>rpc restore-point-creator restore restore-point admin</tags>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>

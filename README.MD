@@ -1,10 +1,12 @@
+# SashaChocolatey
+
 Packages of [**oderzhimyi_Sashei**](https://chocolatey.org/profiles/oderzhimyi_Sashei) for [**Chocolatey**](https://chocolatey.org/) — package manager for Windows.
 
 ![Sasha Icon](icons/SashaChocolatey.jpg)
 
 ---
 
-### 1. Need help
+## 1. Need help
 
 It would be nice, if you tell me, how I can fix these problems. **Pull requests welcome!**
 
@@ -18,7 +20,7 @@ It would be nice, if you tell me, how I can fix these problems. **Pull requests 
 
 ---
 
-### 2. TODO
+## 2. TODO
 
 If you can to be a maintainer of package for any of these programs, it would be nice too.
 
@@ -48,8 +50,6 @@ If you can to be a maintainer of package for any of these programs, it would be 
 + Rollback rx,
 + iReboot,
 + MozBackup,
-+ Restore Point Creator,
 + Microsoft Keyboard Layout Creator,
-+ Easy Context Menu,
 + KateLogger,
 + HjsSplit
