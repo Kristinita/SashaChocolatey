@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+  <metadata>
+  	<!-- id — lowercase name of package, title — real name of program -->
+    <id>preme</id>
+    <version>0.995</version>
+    <title>Preme for Windows</title>
+    <authors>Preme for Windows</authors>
+    <owners>Sasha Chernykh</owners>
+    <projectUrl>http://www.premeforwindows.com/</projectUrl>
+    <!-- It would be nice, if you don't use whitespaces in path to image. -->
+    <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Preme-For-Windows.png</iconUrl>
+    <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Preme For Windows</packageSourceUrl>
+    <!-- Points to the forum or email list group for the software. -->
+    <bugTrackerUrl>https://www.facebook.com/premeforwindows</bugTrackerUrl>
+    <!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Preme for Windows speeds up your window switching.</summary>
+    <description>Preme for Windows speeds up your window switching.</description>
+    <releaseNotes>Functional Screen Corner - It serves you many functions at the screen corners. You can select
+
+* Touch Start - Start menu will show automatically, and then hide immediately when your pointer is not on start menu.
+
+* Shortcut Key
+
+* Open Any File
+
+* Hide Active - Your active window will be disappeared temporarily, so you can see some detail behind the active window.
+
+* Switcher (Aero Flip 3D)
+
+* Switcher (Task Switcher)
+
+* Anyway you can adjust delay time in your corner touching.</releaseNotes>
+    <copyright>Copyright © 2010—2014 year</copyright>
+    <!-- Write tags through spaces -->
+    <!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+    <tags>preme-for-windows preme pfw window-switching admin</tags>
+  </metadata>
+    <files>
+          <file src="tools\**" target="tools" />
+    </files>
+</package>

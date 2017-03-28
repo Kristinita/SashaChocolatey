@@ -13,6 +13,5 @@ _ReSharper*
 *.ini
 
 *.nupkg
-.editorconfig
 Thumbs.db
 .DS_Store
