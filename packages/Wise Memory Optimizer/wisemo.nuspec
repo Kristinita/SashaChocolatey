@@ -3,14 +3,14 @@
 	<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
 	<metadata>
 		<!-- id — lowercase name of package, title — real name of program -->
-		<id>wizemo</id>
+		<id>wisemo</id>
 		<version>3.51</version>
-		<title>Wize Memory Optimizer</title>
+		<title>Wise Memory Optimizer</title>
 		<authors>WiseCleaner.com</authors>
 		<owners>Sasha Chernykh</owners>
 		<projectUrl>http://www.wisecleaner.com/wise-memory-optimizer.html</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Wize-Memory-Optimizer.png</iconUrl>
-		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Wize Memory Optimizer</packageSourceUrl>
+		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Wise-Memory-Optimizer.png</iconUrl>
+		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Wise Memory Optimizer</packageSourceUrl>
 		<docsUrl>http://www.wisecleaner.com/wise-memory-optimizer-user-guide.html</docsUrl>
 		<mailingListUrl>http://forum.wisecleaner.com/index.php?/forum/6-other-wisecleaner-products/</mailingListUrl>
 		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
@@ -22,7 +22,7 @@
 		</releaseNotes>
 		<copyright>Copyright 2006-2017 WiseCleaner.com All Rights Reserved</copyright>
 		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
-		<tags>wize-memory-optimizer memory memory-optimization admin</tags>
+		<tags>wise-memory-optimizer wmo memory memory-optimization admin</tags>
 	</metadata>
 	<files>
 		<file src="tools\**" target="tools"/>

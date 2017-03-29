@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop';
 
-$packageName = 'Wize Memory Optimizer'
+$packageName = 'Wise Memory Optimizer'
 $url         = 'http://www.wisecleaner.com/soft/WMOSetup.exe'
 $url64       = ''
 
