@@ -30,7 +30,6 @@ If you can to be a maintainer of package for any of these programs, it would be 
 + DroidExplorer,
 + ICQ,
 + JAP/Jondo,
-+ Meazure,
 + Offline Explorer,
 + SIQuester,
 + Types,

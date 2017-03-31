@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+	<metadata>
+		<!-- id — lowercase name of package, title — real name of program -->
+		<id>meazure</id>
+		<version>2.0.1</version>
+		<title>Meazure</title>
+		<authors>Baron Roberts, Cecie</authors>
+		<owners>Sasha Chernykh</owners>
+		<licenseUrl>https://bitbucket.org/cthing/meazure/raw/72f19d13c9902641a26fd7c9a68f17d4f1a515ec/License.txt</licenseUrl>
+		<projectUrl>http://www.cthing.com/Meazure.asp</projectUrl>
+		<!-- It would be nice, if you don't use whitespaces in path to image. -->
+		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Meazure.png</iconUrl>
+		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Meazure</packageSourceUrl>
+		<docsUrl>http://www.cthing.com/MeazureFAQ.asp</docsUrl>
+		<!-- Points to the forum or email list group for the software. -->
+		<mailingListUrl>http://www.cthing.com/ContactUs.asp</mailingListUrl>
+		<bugTrackerUrl>http://www.cthing.com/MeazureFAQ.asp</bugTrackerUrl>
+		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>What are the dimensions of that image? How big is this window? Does this layout fit on an NTSC display? What color are these pixels? What does this icon look like close up? How can I capture an arbitrary portion of the screen? These are just a few of the questions that kept coming up as I developed applications and web pages.</summary>
+		<description>
+    * Measure objects on the screen such as images, windows and icons
+    * Capture arbitrary portions of the screen
+    * Magnify the screen up to 32X magnification
+    * Read the color of a screen pixel in RGB, hex RGB, CMY, CMYK, HSL, YCbCr, YIQ
+    * Display rulers anywhere on the screen
+    * Display a grid overlay on the screen with adjustable grid spacing
+    * Measure using a number of units including pixels, points, twips, centimeters, or user-defined
+    * Record measurements to an XML file for later playback or external processing
+    * Calibrate screen resolution to provide accurate measurements
+    * Save and restore measurement tool positions using Profiles
+    * Use predefined Profiles for common screen and video sizes such as NTSC and PAL
+    * Configure the user interface to show only the information you need
+    * Many more features...</description>
+		<releaseNotes>* Publish Meazure as an Open Source project on GitHub under
+  the GNU General Public License.
+
+* Windows 98, ME, NT and 2000 are no longer supported.</releaseNotes>
+		<copyright>Copyright © 2001-2017 C Thing Software</copyright>
+		<!-- Write tags through spaces -->
+		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+		<tags>meazure ruler grid screen admin</tags>
+<!-- <dependencies>
+	<dependency id="sample_dependency" version="1.0" />
+</dependencies> -->
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
