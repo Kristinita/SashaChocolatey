@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+	<metadata>
+		<!-- id — lowercase name of package, title — real name of program -->
+		<id>vale</id>
+		<version>1.4.1</version>
+		<title>Vale</title>
+		<authors>Joseph Kato</authors>
+		<owners>Sasha Chernykh</owners>
+		<licenseUrl>https://github.com/ValeLint/vale/blob/master/LICENSE</licenseUrl>
+		<projectUrl>https://valelint.github.io/</projectUrl>
+		<!-- It would be nice, if you don't use whitespaces in path to image. -->
+		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Vale.png</iconUrl>
+		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Vale</packageSourceUrl>
+		<docsUrl>https://valelint.github.io/usage/</docsUrl>
+		<!-- Points to the forum or email list group for the software. -->
+		<mailingListUrl>mailto:joesph@jdkato.io</mailingListUrl>
+		<bugTrackerUrl>https://github.com/ValeLint/vale/issues</bugTrackerUrl>
+		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>Vale — the customizable linter for prose.</summary>
+		<description>Vale is an open source linter for prose—no matter if it’s plain text, markup or source-code comments. It’s built around a plugin system that allows it to lint against arbitrary rules. In practice, this means that it can help you adhere to entire editorial style guides or simply break writer-specific bad habits.</description>
+		<releaseNotes>Like the other extension points, this will intelligently ignore certain syntax constructs (e.g., code blocks, URLs, etc.)</releaseNotes>
+		<copyright>© 2017</copyright>
+		<!-- Write tags through spaces -->
+		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+		<tags>vale linter prose admin</tags>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
