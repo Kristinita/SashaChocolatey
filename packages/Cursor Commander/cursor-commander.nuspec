@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+	<metadata>
+		<!-- id — lowercase name of package, title — real name of program -->
+		<id>cursor-commander</id>
+		<version>1.0.0.0</version>
+		<title>Cursor Commander</title>
+		<authors>Sergey Tkachenko</authors>
+		<owners>Sasha Chernykh</owners>
+		<projectUrl>http://winaero.com/comment.php?comment.news.225</projectUrl>
+		<!-- It would be nice, if you don't use whitespaces in path to image. -->
+		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/CursorCommander.png</iconUrl>
+		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Cursor Commander</packageSourceUrl>
+		<docsUrl>http://winaero.com/comment.php?comment.news.225</docsUrl>
+		<!-- Points to the forum or email list group for the software. -->
+		<bugTrackerUrl>http://winreview.ru/forum/index.php</bugTrackerUrl>
+		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>Cursor Commander — cursor manager for Windows</summary>
+		<description>Cursor Commander is a freeware application created for simple applying and sharing of cursors. Using this app, you will be able to change all Windows cursors with one click. The application is a useful alternative to Mouse settings in the Control Panel: it allows you to see all cursors at once without scrolling and change ALL OF them with a SINGLE click. You are able to save your customized cursors to a cursors theme. You will be able to share your cursors with other users as they can be exported to a single *.cursorpack file with one click.</description>
+		<releaseNotes>Bugs fixed</releaseNotes>
+		<copyright>© 2009 - 2017 Winaero.com</copyright>
+		<!-- Write tags through spaces -->
+		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+		<tags>cursor-commander cursors admin</tags>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>

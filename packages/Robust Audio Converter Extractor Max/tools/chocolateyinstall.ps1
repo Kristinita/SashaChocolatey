@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop';
 $packageName = 'Robust Audio Converter Extractor Max'
 # Don't forget specify protocol for URL's!
 $url         = 'https://github.com/Kristinita/SashaChocolatey/blob/master/exe/Robust%20Audio%20Converter%20Extractor%20Max/rax.exe?raw=true'
-$url64       = ''
+# $url64       = 'Paste here correct download URL for 64-bit Windows. If for 32-bit and 64-bit Windows you have one installation file, remove or comment this line'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -18,8 +18,8 @@ $packageArgs = @{
 
   checksum      = '10814019E58E28CF0B6ED776C9B40AA1E6B2F4B202BB01A4898C1D667F5CB914'
   checksumType  = 'sha256'
-  checksum64    = ''
-  checksumType64= 'sha256'
+  # checksum64    = 'Paste here correct SHA256 checksum for 64-bit exe file. If for 32-bit and 64-bit Windows you have one installation file, remove or comment this line.'
+  # checksumType64= 'If for 32-bit and 64-bit Windows you have one installation file, remove or comment this line.'
 
   ######
   # EXE

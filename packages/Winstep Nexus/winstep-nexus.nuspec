@@ -7,7 +7,6 @@
     <title>Winstep Nexus</title>
     <authors>Winstep Software Technologies</authors>
     <owners>Sasha Chernykh</owners>
-    <licenseUrl>http://www.winstep.net/nexus.asp</licenseUrl>
     <projectUrl>http://www.winstep.net/nexus.asp</projectUrl>
     <iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/WinstepNexus.png</iconUrl>
     <packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Winstep Nexus</packageSourceUrl>
@@ -17,7 +16,7 @@
     <!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>The Advanced Docking System for Windows</summary>
-    <description>The Winstep Nexus Dock is a FREE professional dock for Windows. With Nexus, your most frequently used applications are only a mouse click away - and Nexus turns working with your computer into a fun and exciting experience.  
+    <description>The Winstep Nexus Dock is a FREE professional dock for Windows. With Nexus, your most frequently used applications are only a mouse click away - and Nexus turns working with your computer into a fun and exciting experience.
 
 Nexus Ultimate is an enhanced version of the free-to-use Nexus dock which is available stand-alone or as a component of Winstep Xtreme (a single easy-to-install package featuring all of Winstep's popular desktop enhancement products for Windows). </description>
     <releaseNotes>Bugs fixed</releaseNotes>

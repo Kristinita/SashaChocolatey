@@ -4,7 +4,7 @@
 	<metadata>
 		<!-- id — lowercase name of package, title — real name of program -->
 		<id>rpc</id>
-		<version>6.0</version>
+		<version>6.1</version>
 		<title>Restore Point Creator</title>
 		<authors>Thomas R. Parkison</authors>
 		<owners>Sasha Chernykh</owners>

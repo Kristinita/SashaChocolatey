@@ -16,7 +16,7 @@ $packageArgs = @{
   # If exit code — 1223, program will be still installed with success.
   validExitCodes = (0, 1223)
 
-  checksum      = '4DA60A4D05CB2808AC3AD2700DE168014CDDC997C62168D10A06B4DF771DF0C0'
+  checksum      = 'D62F9D392C76D3847A01F3EEFF83CC94A436310EC81F2FBB8A7DDB727B600C38'
   checksumType  = 'sha256'
   checksum64    = ''
   checksumType64= 'sha256'

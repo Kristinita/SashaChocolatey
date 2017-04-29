@@ -1,19 +1,24 @@
 $ErrorActionPreference = 'Stop';
 
-$packageName = 'winstep-nexus'
+# Insert here full correct name of program, not Chocolatey package name. For example, correct «Performance Maintainer», not «pername».
+$packageName = 'Cursor Commander'
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 # Don't forget specify protocol for URL's!
-$url         = 'http://www.winstep.net/nexus.zip'
+$url         = 'http://winaero.com/download.php?view.1774'
 $url64       = ''
-$installer   = Join-Path $toolsDir 'NexusSetup.exe'
+$installer   = Join-Path $toolsDir 'Cursor Commander-1.0-Win8.exe'
 
 $UnzipArgs = @{
   packageName   = $packageName
   unzipLocation = $toolsDir
+
   url           = $url
   url64bit      = $url64
 
-  checksum        = 'F06BA96DD3B6BA858AB5D10C78540F834A3CE7AE3F0AD781556F919F37AB7AFB'
+  # If exit code — 1223, program will be still installed with success.
+  validExitCodes = (0, 1223)
+
+  checksum        = 'DFA69CD8291E4FB9BCC2F49169217AD5292A91E9B169F7380AB2C65C76E94AE2'
   checksumType    = 'sha256'
   checksum64      = ''
   checksumType64  = 'sha256'
@@ -35,7 +40,7 @@ $InstallArgs =@{
 # silentArgs   = '-s'           # Squirrel
 # silentArgs   = '-q'           # Install4j
 
-	silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+	silentArgs   = '/S'
 
 }
 
