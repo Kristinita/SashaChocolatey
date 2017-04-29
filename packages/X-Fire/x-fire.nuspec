@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+	<metadata>
+		<!-- id — lowercase name of package, title — real name of program -->
+		<id>x-fire</id>
+		<version>1.0.0</version>
+		<title>X-Fire</title>
+		<authors>JJ Ying</authors>
+		<owners>Sasha Chernykh</owners>
+		<projectUrl>https://7themes.su/stuff/kursory_windows/x_fire/7-1-0-142</projectUrl>
+		<!-- It would be nice, if you don't use whitespaces in path to image. -->
+		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/{{PACKAGE}}.png</iconUrl>
+		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/{{PACKAGE}}</packageSourceUrl>
+		<!-- Points to the forum or email list group for the software. -->
+		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>X-Fire Cursors pack for windows</summary>
+		<description>You need install cursor pack use Cursor Commander program. See installation instructions by http://winaero.com/comment.php?comment.news.225 link.</description>
+		<releaseNotes>Fixed cursors for page resize.</releaseNotes>
+		<copyright>Copyright © 2005 JJ Ying</copyright>
+		<!-- Write tags through spaces -->
+		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+		<tags>x-fire cursors cursor-commander cursors-pack</tags>
+		<dependencies>
+			<dependency id="cursor-commander" version="1.0.0.0" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>

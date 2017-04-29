@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop';
 $packageName = 'Cursor Commander'
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 # Don't forget specify protocol for URL's!
-$url         = 'http://winaero.com/download.php?view.1774'
+$url         = 'https://github.com/Kristinita/SashaChocolatey/raw/master/installation-files/Cursor%20Commander/cc.zip'
 $url64       = ''
 $installer   = Join-Path $toolsDir 'Cursor Commander-1.0-Win8.exe'
 
