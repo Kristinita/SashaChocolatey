@@ -1,0 +1,25 @@
+[Info]
+DisplayName=LightSashaFire
+Author=yingjunjiu, Sleeping Dragon
+Url=https://7themes.su/stuff/kursory_windows/x_fire/7-1-0-142
+BriefDescription=https://7themes.su/stuff/kursory_windows/x_fire/7-1-0-142
+
+
+
+https://7themes.su/stuff/kursory_windows/fire_dragon/7-1-0-156
+[Cursors]
+AppStarting=Arrow.ani
+Arrow=Arrow.ani
+Hand=Hand.ani
+Help=Help.ani
+IBeam=Arrow.ani
+No=NO.ani
+NWPen=Handwriting.ani
+SizeAll=SizeAll.ani
+SizeNWSE=SizeNWSE.ani
+SizeNS=SizeNS.ani
+SizeNESW=SizeNESW.ani
+SizeWE=SizeWE.ani
+UpArrow=UpArrow.ani
+Wait=Wait.ani
+Crosshair=Cross.cur

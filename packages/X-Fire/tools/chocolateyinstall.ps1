@@ -3,7 +3,9 @@ $ErrorActionPreference = 'Stop';
 
 # Insert here full correct name of program, not Chocolatey package name. For example, correct «Performance Maintainer», not «pername».
 $packageName = 'X-Fire'
-$toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+# Use %SystemRoot% environment variable
+# https://blogs.technet.microsoft.com/tip_of_the_day/2014/05/14/tip-of-the-day-using-environment-variables-with-windows-powershell/
+$toolsDir    = "$env:SystemRoot\Cursors"
 # Don't forget specify protocol for URL's!
 $url         = 'https://github.com/Kristinita/SashaChocolatey/raw/master/installation-files/X-Fire/LightSashaFire.CursorPack'
 $url64       = ''
