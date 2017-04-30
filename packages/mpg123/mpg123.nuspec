@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<!-- Press Esc key before Tab key pressing, if you see autocomplete variants. -->
+	<metadata>
+		<!-- id — lowercase name of package, title — real name of program -->
+		<id>mpg123</id>
+		<version>1.24.0</version>
+		<title>mpg123</title>
+		<authors>Michael Hipp, Thomas Orgis</authors>
+		<owners>Sasha Chernykh</owners>
+		<licenseUrl>https://directory.fsf.org/wiki/LGPLv2</licenseUrl>
+		<projectUrl>https://www.mpg123.de/index.shtml</projectUrl>
+		<!-- It would be nice, if you don't use whitespaces in path to image. -->
+		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/mpg123.png</iconUrl>
+		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/mpg123</packageSourceUrl>
+		<docsUrl>https://www.mpg123.de/api/</docsUrl>
+		<!-- Points to the forum or email list group for the software. -->
+		<mailingListUrl>https://sourceforge.net/p/mpg123/mailman/?source=navbar</mailingListUrl>
+		<bugTrackerUrl>https://sourceforge.net/p/mpg123/_list/tickets</bugTrackerUrl>
+		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>Cross-platform CLI music player.</summary>
+		<description>The mpg123 distribution contains a real time MPEG 1.0/2.0/2.5 audio player/decoder for layers 1,2 and 3 (most commonly MPEG 1.0 layer 3 aka MP3), as well as re-usable decoding and output libraries. Among others, it works on GNU/Linux, MacOSX, the BSDs, Solaris, AIX, HPUX, SGI Irix, OS/2 and Cygwin or plain MS Windows (not all more exotic platforms tested regularily, but patches welcome). You may jump to the non-exhaustive list of features.  
+
+It is free software licensed under LGPL 2.1 .  
+
+Note that nowadays, the mpg123 decoder core can work with floating point or integer math and with some tuning between accuracy and performance at build-time, using assembly optimizations for several platforms, depending on your build configuration. There is detection and selection of assembly optimisations on x86, x86-64, and ARM at program runtime. It's fast, it's high-quality. Just use it.</description>
+		<releaseNotes>Avoid repeating genre in metadata printout for specifications like (144)Thrash Metal.  
+* In remote control mode, only enforce --quiet if no verbosity was required.  
+* Prevent --loop and --shuffle or --random from messing with the remote control LOADLIST command (printout of the list would loop without reason).  
+* Fix the mpg123 command (esp. our provided binaries on Windows) to now find modules again relative to the executable directory, not the current working directory. This was a regression in 1.23 and might be security-relevant if you called mpg123 in working directories with untrusted content. Note that mpg123 1.23 looked for modules relative to the current working directory only if the installation prefix for modules did not exist. So, usage on an intact installation (with /usr/lib/mpg123 or the like) was safe. Nevertheless this new version fixes the search to be relative to the binary path as it was with 1.22 and before.  
+* At least consistent behaviour of playlist code in the face of looping. Looping is about individual tracks, always. They are looped also in random mode. Jumping (prev/next keys) is between tracks and resets the loop counter. The display of currently playing track in the playlist is fixed for random and looped play now (bug 198).  
+* Looping is now mentioned for a to-be-repeated track with --verbose.  
+* Move some compiler nagging from --enable-debug to --enable-nagging, fix up some new build failures by adding some pesky feature test macros.  
+* Try not to pollute the terminal buffer with old progress bars in inverse video. Only the currently live one shall be seen. That one is pretty. The others are not.  
+* Using plain dlopen()/LoadLibrary() for opening modules instead of libltdl. This also means that --with-module-suffix is gone in configure.  
+* Windows builds only work when Unicode support is there (older than Windows 2000/XP will definitely not work anymore)  
+* The out123 tool now features tone generation, with a mix of differing wave patterns. Makes sense to be able to test the audio output by itself, and it's fun. See --wave-freq and related parameters.</releaseNotes>
+		<!-- Write tags through spaces -->
+		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
+		<tags>mpg123 mp3 mp3-player player</tags>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
