@@ -16,7 +16,7 @@
 		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<summary>X-Fire Cursors pack for windows</summary>
-		<description>You need install cursor pack use Cursor Commander program. See installation instructions by http://winaero.com/comment.php?comment.news.225 link.</description>
+		<description>See installation instructions by http://winaero.com/comment.php?comment.news.225 link.</description>
 		<releaseNotes>Fixed cursors for page resize.</releaseNotes>
 		<copyright>Copyright © 2005 JJ Ying</copyright>
 		<!-- Write tags through spaces -->

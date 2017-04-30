@@ -46,7 +46,6 @@ If you can to be a maintainer of package for any of these programs, it would be 
 + FileASSASSIN,
 + Rollback rx,
 + iReboot,
-+ MozBackup,
 + KateLogger,
 + HjsSplit,
 + TeX Live
