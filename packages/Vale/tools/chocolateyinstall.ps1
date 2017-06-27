@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop';
 # Insert here full correct name of program, not Chocolatey package name. For example, correct «Performance Maintainer», not «pername».
 $packageName = 'Vale'
 # Don't forget specify protocol for URL's!
-$url         = 'https://github.com/ValeLint/vale/releases/download/v0.4.1/vale.msi'
+$url         = 'https://github.com/ValeLint/vale/releases/download/0.8.1/vale.msi'
 $url64       = ''
 
 $packageArgs = @{
@@ -16,7 +16,7 @@ $packageArgs = @{
   # If exit code — 1223, program will be still installed with success.
   validExitCodes = (0, 1223)
 
-  checksum      = '455D695E927EFB4F0144EF265117E94FE664C2AFBF66D3730DFCC3532E5522B9'
+  checksum      = 'EE799D2BB04F35701DE9B65AE993AE6531DA168184E477EF78A0A947B2E187CE'
   checksumType  = 'sha256'
   checksum64    = ''
   checksumType64= ''
