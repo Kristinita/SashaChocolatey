@@ -2,7 +2,7 @@
 
 $packageName = 'Wox'
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url         = 'https://github.com/Wox-launcher/Wox/releases/download/v1.3.183/Wox-1.3.183.exe'
+$url         = 'https://github.com/Wox-launcher/Wox/releases/download/v1.3.524/Wox-1.3.524.exe'
 $url64       = ''
 
 $packageArgs = @{
@@ -12,7 +12,7 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
 
-  checksum      = '006B6C8922FE9D8FEC4D3EF42DAF7D6296C181F0967A856B2BB22F69D2E3BE5E'
+  checksum      = '1C9F0850AA6B471F39822CC5C35D8D260C97339A482F2B235D54800568694071'
   checksumType  = 'sha256'
   checksum64    = ''
   checksumType64= 'sha256'
