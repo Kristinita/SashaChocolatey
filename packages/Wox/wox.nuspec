@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>wox</id>
     <title>Wox</title>
-    <version>1.3.183</version>
+    <version>1.3.524</version>
     <authors>qianlifeng</authors>
     <owners>CkEsc, Sasha Chernykh</owners>
     <summary>A launcher for Windows</summary>
