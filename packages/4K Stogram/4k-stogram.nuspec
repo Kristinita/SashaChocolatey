@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>4k-stogram</id>
-    <version>2.2.2</version>
+    <version>2.7.3</version>
     <title>4K Stogram</title>
     <authors>4K Download project</authors>
     <owners>Sasha_Chernykh</owners>
@@ -15,9 +15,9 @@
     <bugTrackerUrl>https://www.4kdownload.com/ru/contacts</bugTrackerUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>4K Stogram — program for quick download Instagram photos and videos.</summary>
-    <description>Capabilities:  
-    	* Download photos and videos from closed profiles of friends,  
-    	* Automatic download last photos favorite photographers.</description>
+    <description>4K Stogram is an Instagram Viewer and Downloader for PC, macOS and Linux. 
+	Download photos, videos and stories from your friends’ public and private Instagram accounts, backup your Instagram profile and import your list of Instagram subscriptions. 
+	Get started for free!</description>
     <releaseNotes>Bugs fixed</releaseNotes>
     <copyright>Copyright © 2016 OpenMedia LLC</copyright>
     <tags>4k-stogram instagram downloader admin</tags>
