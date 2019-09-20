@@ -53,3 +53,7 @@ If you can to be a maintainer of package for any of these programs, it would be 
 + Epic Pen
 + Kite
 + Recycle NOW
++ [G'MIC plugins for Krita and GIMP](https://gmic.eu/download.shtml)
++ MyPaint
++ nnCron
++ DeadLock
