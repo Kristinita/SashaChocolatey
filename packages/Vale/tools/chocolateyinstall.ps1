@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop';
 # Insert here full correct name of program, not Chocolatey package name. For example, correct «Performance Maintainer», not «pername».
 $packageName = 'Vale'
 # Don't forget specify protocol for URL's!
-$url         = 'https://github.com/errata-ai/vale/releases/download/v1.0.3/vale.msi'
+$url         = 'https://github.com/errata-ai/vale/releases/download/v1.7.1/vale.msi'
 $url64       = ''
 
 $packageArgs = @{
@@ -16,7 +16,7 @@ $packageArgs = @{
   # If exit code — 1223, program will be still installed with success.
   validExitCodes = (0, 1223)
 
-  checksum      = 'AF2E90EADE1DC3DC61E9F7B6DA5950BD5A51F548F52A15B12DC19F4384D0C8E5'
+  checksum      = '60EA68100D3AA7DD7A05440360D1BB4B54DCABDFC7FCBA953E1C524C81960969'
   checksumType  = 'sha256'
   checksum64    = ''
   checksumType64= ''
