@@ -4,7 +4,7 @@
 	<metadata>
 		<!-- id — lowercase name of package, title — real name of program -->
 		<id>vale</id>
-		<version>1.0.3</version>
+		<version>2.2.2</version>
 		<title>Vale</title>
 		<authors>Joseph Kato</authors>
 		<owners>Sasha Chernykh</owners>
@@ -13,7 +13,7 @@
 		<!-- It would be nice, if you don't use whitespaces in path to image. -->
 		<iconUrl>https://cdn.rawgit.com/Kristinita/SashaChocolatey/master/icons/Vale.png</iconUrl>
 		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Vale</packageSourceUrl>
-		<docsUrl>https://errata.ai/vale/getting-started/</docsUrl>
+		<docsUrl>https://github.com/errata-ai/vale</docsUrl>
 		<!-- Points to the forum or email list group for the software. -->
 		<mailingListUrl>mailto:joesph@jdkato.io</mailingListUrl>
 		<bugTrackerUrl>https://github.com/errata-ai/vale/issues</bugTrackerUrl>
@@ -22,7 +22,7 @@
 		<summary>Vale — the customizable linter for prose.</summary>
 		<description>Vale is a free, open-source linter for prose built with speed and extensibility in mind.</description>
 		<releaseNotes>Like the other extension points, this will intelligently ignore certain syntax constructs (e.g., code blocks, URLs, etc.)</releaseNotes>
-		<copyright>© 2018</copyright>
+		<copyright>© 2020</copyright>
 		<!-- Write tags through spaces -->
 		<!-- Add «admin» (without «qoutes») tag, if your package are .exe or .msi -->
 		<tags>vale linter prose admin</tags>
