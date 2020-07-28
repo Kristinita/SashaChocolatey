@@ -1,33 +1,21 @@
 $ErrorActionPreference = 'Stop';
 
-# Insert here full correct name of program, not Chocolatey package name. For example, correct «Performance Maintainer», not «pername».
 $packageName = 'Vale'
-# Don't forget specify protocol for URL's!
-$url         = 'https://github.com/errata-ai/vale/releases/download/v1.7.1/vale.msi'
-$url64       = ''
+$toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url         = ''
+$url64       = 'https://github.com/errata-ai/vale/releases/download/v2.2.2/vale_2.2.2_Windows_64-bit.zip'
 
 $packageArgs = @{
   packageName   = $packageName
-
-  fileType      = 'msi'
+  unzipLocation = $toolsDir
   url           = $url
   url64bit      = $url64
 
-  # If exit code — 1223, program will be still installed with success.
-  validExitCodes = (0, 1223)
+  checksum        = ''
+  checksumType    = ''
+  checksum64      = '63ed5385da45f3fc1001e0295a4fe0d84d3cea192fc03ed92aa06120e8132af6'
+  checksumType64  = 'sha256'
 
-  checksum      = '60EA68100D3AA7DD7A05440360D1BB4B54DCABDFC7FCBA953E1C524C81960969'
-  checksumType  = 'sha256'
-  checksum64    = ''
-  checksumType64= ''
-
-  ######
-  # MSI
-  ######
-  # Remove msiexec.exe, filename and /i argument from USSF for silentArgs value. For example, if USSF show «msiexec.exe /i "PowerResizerSetup.msi" /qb», insert in SilentArgs «/qb».
-  ######
-
-  silentArgs   = '/qb'
 }
 
-Install-ChocolateyPackage @packageArgs
+Install-ChocolateyZipPackage @packageArgs
