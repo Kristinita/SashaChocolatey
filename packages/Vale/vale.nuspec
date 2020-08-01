@@ -15,7 +15,7 @@
 		<packageSourceUrl>https://github.com/Kristinita/SashaChocolatey/tree/master/packages/Vale</packageSourceUrl>
 		<docsUrl>https://github.com/errata-ai/vale</docsUrl>
 		<!-- Points to the forum or email list group for the software. -->
-		<mailingListUrl>mailto:joesph@jdkato.io</mailingListUrl>
+		<mailingListUrl>https://github.com/errata-ai/vale/issues</mailingListUrl>
 		<bugTrackerUrl>https://github.com/errata-ai/vale/issues</bugTrackerUrl>
 		<!-- If you select «false», please, press Esc key after Tab key pressing, because otherwise will run frameworkAssemblies snippet. -->
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
