@@ -2,7 +2,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName = 'Vale'
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64       = 'https://github.com/errata-ai/vale/releases/download/v2.9.0/vale_2.9.1_Windows_64-bit.zip'
+$url64       = 'https://github.com/errata-ai/vale/releases/download/v2.9.1/vale_2.9.1_Windows_64-bit.zip'
 
 $packageArgs = @{
   packageName   = $packageName
