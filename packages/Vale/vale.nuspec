@@ -4,7 +4,7 @@
 	<metadata>
 		<!-- id — lowercase name of package, title — real name of program -->
 		<id>vale</id>
-		<version>2.10.0</version>
+		<version>2.10.2</version>
 		<title>Vale</title>
 		<authors>Joseph Kato</authors>
 		<owners>Sasha Chernykh</owners>
