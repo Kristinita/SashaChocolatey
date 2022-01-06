@@ -2,14 +2,14 @@ $ErrorActionPreference = 'Stop';
 
 $packageName = 'Vale'
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64       = 'https://github.com/errata-ai/vale/releases/download/v2.10.4/vale_2.10.4_Windows_64-bit.zip'
+$url64       = 'https://github.com/errata-ai/vale/releases/download/v2.13.0/vale_2.13.0_Windows_64-bit.zip'
 
 $packageArgs = @{
   packageName   = $packageName
   unzipLocation = $toolsDir
   url64bit      = $url64
 
-  checksum64      = 'f4b7069508950a5834aaa97bb30389bac2fdc4d3e8925a13ea29b7343dfb0049'
+  checksum64      = '43c031b7661579f3c8b4b1ca7eef9edbbab4530bc082091209c613746d735293'
   checksumType64  = 'sha256'
 
 }
