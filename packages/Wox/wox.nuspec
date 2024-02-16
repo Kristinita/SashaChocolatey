@@ -10,7 +10,7 @@
     <owners>CkEsc, Sasha Chernykh</owners>
     <summary>A launcher for Windows</summary>
     <description>Wox is a launcher for Windows, which was inspired by Alfred and Launchy. Wox provide an entry to search everything you want.</description>
-    <projectUrl>http://www.getwox.com</projectUrl>
+    <projectUrl>http://www.wox.one/</projectUrl>
     <tags>wox launcher</tags>
     <copyright>Copyright (c) 2013 qianlifeng</copyright>
     <licenseUrl>https://raw.githubusercontent.com/qianlifeng/Wox/master/LICENSE</licenseUrl>
